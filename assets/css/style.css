@@ -1,0 +1,135 @@
+
+body {
+    background: url("assets/images/concrete_seamless.png") repeat fixed center;
+    font-size: 18px;
+    line-height: 34px;
+}
+
+.border {
+    border: 1px solid gray;
+    margin: auto;
+    width: 960px;
+}
+
+.border2 {
+    border: 0.2px solid #ccc;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.my-img {
+    margin-right: 10px;
+}
+
+.container {
+    width: 960px;
+    background-color: white;
+}
+
+a,
+.nav-link {
+    color: #666;
+    text-decoration: none;
+    /* border-left: 1px solid #999; */
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
+.navbar {
+    padding: 0;
+    height: 100%;
+}
+
+h1 {
+    height: inherit;
+    width: 100%;
+
+}
+
+.row1 {
+    background-color: white;
+    border-bottom: 4px solid #ccc;
+}
+
+h2 {
+    color: #4aaaa5;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.my-name {
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 40px;
+    /* line-height: 90px;   */
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: auto;
+    width: 40%;
+}
+
+.p-about-me {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .my-name {
+        width: 100%;
+
+    }
+  }
+  
+hr {
+    width: 96%; 
+    height: 1px; 
+    background-color:#ccc;
+}
+
+footer {
+    color: white;
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+}
+
+.copyright {
+    color: white;
+}
+
+.card-body {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 0;
+}
+
+.card {
+    width: 12rem; 
+    height: 10rem;
+}
+
+.btn-primary {
+    background-color: #4aaaa5;
+    border-style: none;
+    border-radius: 0;
+    margin-top: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #666;
+}
+
+.form-group {
+    margin-bottom: 0.4rem;
+}
+
+label {
+    margin-bottom: 0;
+    color: #666;
+    font-size: 17px;
+}
