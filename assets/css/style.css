@@ -136,3 +136,12 @@ label {
     color: #666;
     font-size: 17px;
 }
+
+p.card-text.text-center {
+    color: white;
+}
+
+p.card-text.text-center:hover {
+    color: #666;
+    font-weight: bold;
+}
